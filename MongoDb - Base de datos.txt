@@ -1,0 +1,33 @@
+
+Creacion de API Rest con .Net core y Mongo Db
+
+db.createCollection('Promocion')
+
+
+"Id": "426cc3be-cd5c-4001-bd46-7566a18f2376"
+ "MediosDePago": ["TARJETA_CREDITO", "TARJETA_DEBITO"],
+ "Bancos": ["Galicia", "Macro"],
+ "CategoriasProductos": ["Celulares", "Audio"],
+ "MaximaCantidadDeCuotas": 12,
+ "ValorInteresCuotas": 3.15,
+ "PorcentajeDeDescuento": null,
+ "FechaInicio": “01/06/2018”,
+ "FechaFin": “01/06/2030”,
+
+Api rest 
+
+Base de datos 
+
+'MaximaCantidadDeCuotas':12,'ValorInteresCuotas':3.15,'PorcentajeDeDescuento':'null','FechaInicio':'01/06/2018','FechaFin':'01/06/2030'
+
+db.Promocion.insertMany([{'MediosDePago':'TARJETA_CREDITO','Bancos':'Galicia','Macro','CategoriasProductos:':'Celulares','Audio','MaximaCantidadDeCuotas':12,'ValorInteresCuotas':3.15,'PorcentajeDeDescuento':'null','FechaInicio':,'01/06/2018','FechaFin','01/06/2030'}])
+
+db.Books.insertMany([{'Name':'Design Patterns','Price':54.93,'Category':'Computers','Author':'Ralph Johnson'}, {'Name':'Clean Code','Price':43.15,'Category':'Computers','Author':'Robert C. Martin'}])
+
+db.Promocion.insertMany([{'MediosDePago':['TARJETA_CREDITO','TARJETA_DEBITO'],'Bancos':['Galicia','Macro'],'CategoriasProductos':['Celulares','Audio'],'MaximaCantidadDeCuotas':12,'ValorInteresCuotas':3.15,'PorcentajeDeDescuento':'null','FechaInicio':'01/06/2018','FechaFin':'01/06/2030'}])
+
+,{'MediosDePago':'TARJETA_DEBITO','Bancos':'Macro','CategoriasProductos':'Audio'}])
+
+Productos
+
+db.Product.insertMany([{'Name':'Impresora','Summary':54.93,'Description':'Computers','ImageFile':'Imagen','CategoryId':'uno','Price':89,'CategoryId':'Producto','Category':'final'}])
